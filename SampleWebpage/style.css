@@ -1,0 +1,1059 @@
+@font-face {
+    font-family: "Libre Baskerville";
+    src: url("/Libre_Baskerville/LibreBaskerville-Bold.ttf") format("truetype");
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: "Libre Baskerville";
+    src: url("/Libre_Baskerville/LibreBaskerville-Regular.ttf") format("truetype");
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "Libre Baskerville";
+    src: url("/Libre_Baskerville/LibreBaskerville-Italic.ttf") format("truetype");
+    font-weight: 400;
+  }
+
+  body {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  ul
+  {
+    list-style-type: none;
+  }
+  a
+  {
+    text-decoration: none;
+
+  }
+
+  
+@media only screen and (max-width: 780px) {
+
+  ul
+  {
+    list-style-type: none;
+  }
+  a
+  {
+    text-decoration: none;
+
+  }
+
+ 
+
+  .footer
+{
+  background-color: black;
+  color :white;
+
+  display: flex;
+  flex-direction: column;
+
+
+  padding : 20px;
+}
+
+.footer-content
+{
+  flex-basis: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.basis1
+{
+  flex-basis: 10%;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: inherit;
+  background-color: white;
+  color : black;
+  min-height : 40px;
+  min-width: 120px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.basis1 > span
+{
+  align-items: center;
+  justify-self: center;
+}
+
+.basis2
+{
+  flex-basis: 30%;
+  font-size: 26px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.basis2 > ul > li
+{
+  padding : 5px;
+}
+
+.basis3
+{
+  flex-basis: 30%;
+  font-size: 26px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.basis3 > ul >li
+{
+  padding : 5px;
+}
+
+
+.basis4
+{
+  flex-basis: 30%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.basis4 > ul >li
+{
+  padding : 5px;
+}
+
+.contacts
+{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.address > ul
+{
+  padding : 15px;
+}
+
+.address > ul > li
+{
+  padding : 5px;
+}
+
+.socials > ul
+{
+  display : flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials > ul > li
+{
+  padding : 5px;
+}
+
+
+.svg-container
+{
+  height: 50px;
+  width: 50px;
+}
+
+.footer-copyright
+{
+  flex-basis: 10%;
+  background-color: lightgrey;
+  color: black;
+  min-height: 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+} 
+  
+.parallax-abouts-us
+{
+  background-image: url('images/pexels-athena-1963622.jpg');
+  
+  min-height: 300px;
+  width: 100%;
+  left: 0%;
+  top : -30px;
+
+
+
+  background-attachment: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax-abouts-us > span
+{
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  top : 90px;
+}
+
+.about-us-content
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-us-text
+{
+  flex-basis: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding : 40px;
+  font-family: inherit;
+  font-style: italic;
+  font-size: 30px;
+
+}
+
+.about-us-find-out-more
+{
+  flex-basis: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  padding : 20px;
+  font-family: inherit;
+}
+
+.about-us-find-out-more-button
+{
+  min-width : 120px;
+  min-height: 40px;
+  background-color: black;
+  color : white;
+}
+
+.our-work
+{
+  display: flex;
+  flex-direction: column;
+  width : 100%;
+  min-height: 500px;
+  padding: 20px;
+}
+
+.our-work-heading-row
+{
+
+
+  display : flex;
+  justify-content: center;
+  font-family: inherit;
+  font-weight: bolder;
+  font-size: 40px;
+  padding: 30px;
+}
+
+.innersection-cards
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding : 30px;
+}
+
+.card1, .card2, .card3
+{
+  background-color: white;
+  min-height: 620px;
+  min-width: 100px;
+  padding: 6px;
+  box-shadow: 5px 5px 5px 2.5px rgb(0,0,0, 0.6);
+
+
+
+}
+
+.card1,.card3
+{
+  border-radius: 6px;
+}
+
+.card1
+{
+  flex-basis: 30%;
+  background-image: url(images/pexels-denis-ngai-4483669.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: opacity(0.9);
+  filter: drop-shadow(3);
+  filter: grayscale(5%);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+
+}
+
+.card2
+{
+  flex-basis: 30%;
+  background-image: url(images/pexels-lagos-food-bank-initiative-8042458.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: opacity(0.9);
+  filter: drop-shadow(3);
+  filter: grayscale(5%);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+
+
+}
+
+.card3
+{
+  flex-basis: 30%;
+  background-image: url(images/pexels-rdne-stock-project-6646967.jpg);
+  filter: opacity(0.9);
+  filter: drop-shadow(3);
+  filter: grayscale(5%);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+
+}
+
+.card1-heading, .card2-heading, .card3-heading
+{
+  font-family: inherit;
+  font-size: 40px;
+  font-weight : bold;
+  color: white;
+  top : 10%;
+  left: 0;
+  align-content: center;
+  padding : 15px;
+
+}
+
+.card1-heading > span , .card2-heading > span , .card3-heading > span
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.card-button-container
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.card-button
+{ 
+  min-width : 120px;
+  min-height: 40px;
+  background-color: black;
+  color : white;
+}
+
+.banner
+{
+    background-image: url('images/pexels-monstera-production-5384623.jpg');
+  
+    min-height: 900px;
+    
+    left: 0%;
+
+
+    background-attachment: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner > .text 
+{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  text-align: center;
+  color: white;
+  height : 80px;
+
+  font-family: inherit;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.banner > .subtext 
+{
+  visibility: hidden;
+}
+
+.header{
+  height: 90px;
+  min-width: 30px;
+  color: black;
+  background-color: white;
+  position: relative;
+  top : 0%;
+  left: 0%;
+  right : 0%;
+  z-index: 9;
+  text-align: center;
+  box-shadow: 2px 5px 5px rgb(0,0,0, 0.5);
+  
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+  }
+
+  .logo
+  {
+      flex-basis: 80%;
+      padding : 15px;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      background-color: black;
+      height: 50%;
+      width : 80%;
+  
+
+  }
+
+  .logo > span
+  {
+      color : white;
+      font-family: inherit;
+      font-weight: bolder;
+      font-size: 90%;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      align-items: center;
+      align-content: center;
+      padding : 15px;
+  }
+ 
+  .menu_bar
+  {
+    flex-basis: 20%;
+  }
+
+  .menu
+  {
+    visibility: hidden;
+  }
+
+  .menu_hidden
+  {
+    position : absolute;
+    width: 100%;
+    min-height : 1800px;
+    left: 0;
+    top: 0;
+    z-index: 10;
+
+    background-color : white;
+    color : black;
+    padding : 20px;
+    align-items: flex-start;
+  }
+
+  .menu_hidden > ul
+
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    padding : 5px;
+  }
+
+  .menu-visible
+  {
+    visibility: visible;
+  }
+  .menu > ul > li 
+  {
+    padding : 10px;
+    color : black;
+    font-size: 26px;
+  }
+
+  .amp{
+    position: absolute;
+    top : 8px;
+    right: 50%;
+    color : red;
+    font-size : 30px;
+  }
+
+  .navigation
+  {
+    visibility: hidden;
+  }
+  
+}
+
+/*************************************/
+
+@media only screen and (min-width: 780px) {
+
+  .menu 
+  {
+    visibility: hidden;
+  }
+
+  
+
+  .menu_bar
+  {
+    visibility: hidden;
+  }
+  .header{
+    height: 90px;
+    color: black;
+    background-color: white;
+    position: relative;
+    top : 0%;
+    left: 0%;
+    right : 0%;
+    z-index: 10;
+    text-align: center;
+    box-shadow: 2px 5px 5px rgb(0,0,0, 0.5);
+    overflow: hidden;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    }
+
+    .logo
+    {
+        flex-basis: 20%;
+        padding : 5px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        background-color: black;
+        height: 50%;
+        width : 80%;
+    
+
+    }
+
+    .logo > span
+    {
+        color : white;
+        font-family: inherit;
+        font-weight: bolder;
+        font-size: 90%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        align-content: center;
+        padding : 5px;
+    }
+
+    .navigation
+    {
+        flex-basis: 80%;
+        padding : 5px;
+
+    }
+
+    .navigation > ul 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        align-content: center;
+        padding : 5px;
+
+
+    }
+
+    .navigation > ul > li
+    {
+        display: flex;
+        align-items: center;
+        align-content: center;
+
+    }
+
+    .navigation > ul > li >a:hover
+    {
+
+        background-color : black;
+        color : white;
+        cursor: pointer;
+        
+
+    }
+
+
+    .navigation > ul > li > a
+    {
+        color : black;
+        font-size: larger;
+        padding : 20px 50px 20px 50px;
+
+    }
+
+    .banner
+{
+    background-image: url('images/pexels-monstera-production-5384623.jpg');
+  
+    min-height: 900px;
+    width: 100%;
+    left: 0%;
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner > .text 
+{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  height : 80px;
+
+  font-family: inherit;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.banner > .subtext 
+{
+  position: absolute;
+  left: 0;
+  top: 70%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  height : 40px;
+
+  font-family: inherit;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.our-work
+{
+  display: flex;
+  flex-direction: column;
+  width : 100%;
+  padding : 20px 20px 20px 20px;
+  position: sticky;
+
+  min-height: 500px;
+}
+
+.our-work-heading-row
+{
+  width : 100%;
+
+  display : flex;
+  justify-content: center;
+  font-family: inherit;
+  font-weight: bolder;
+  font-size: 40px;
+  padding: 30px;
+}
+
+.innersection-cards
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding : 30px;
+}
+
+.card1, .card2, .card3
+{
+  background-color: white;
+  min-height: 620px;
+  min-width: 100px;
+  padding: 6px;
+  box-shadow: 5px 5px 5px 2.5px rgb(0,0,0, 0.6);
+  border-radius: 6px;
+
+}
+
+.card1
+{
+  flex-basis: 30%;
+  background-image: url(images/pexels-denis-ngai-4483669.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: opacity(0.9);
+  filter: drop-shadow(3);
+  filter: grayscale(5%);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.card2
+{
+  flex-basis: 30%;
+  background-image: url(images/pexels-lagos-food-bank-initiative-8042458.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: opacity(0.9);
+  filter: drop-shadow(3);
+  filter: grayscale(5%);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.card3
+{
+  flex-basis: 30%;
+  background-image: url(images/pexels-rdne-stock-project-6646967.jpg);
+  filter: opacity(0.9);
+  filter: drop-shadow(3);
+  filter: grayscale(5%);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.card1-heading, .card2-heading, .card3-heading
+{
+  font-family: inherit;
+  font-size: 40px;
+  font-weight : bold;
+  color: white;
+  top : 10%;
+  left: 0;
+  align-content: center;
+  padding : 15px;
+
+}
+
+.card1-heading > span , .card2-heading > span , .card3-heading > span
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.card-button-container
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.card-button
+{ 
+  min-width : 120px;
+  min-height: 40px;
+  background-color: black;
+  color : white;
+}
+
+.parallax-abouts-us
+{
+  background-image: url('images/pexels-athena-1963622.jpg');
+  
+  min-height: 300px;
+  width: 100%;
+  left: 0%;
+  top : -30px;
+
+
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax-abouts-us > span
+{
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  top : 90px;
+}
+
+.about-us-content
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-us-text
+{
+  flex-basis: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  padding : 40px;
+  font-family: inherit;
+  font-style: italic;
+  font-size: 30px;
+
+}
+
+.about-us-find-out-more
+{
+  flex-basis: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  padding : 20px;
+  font-family: inherit;
+}
+
+.about-us-find-out-more-button
+{
+  min-width : 120px;
+  min-height: 40px;
+  background-color: black;
+  color : white;
+}
+
+.footer
+{
+  background-color: black;
+  color :white;
+
+  display: flex;
+  flex-direction: column;
+
+
+  padding : 20px;
+}
+
+.footer-content
+{
+  flex-basis: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.basis1
+{
+  flex-basis: 10%;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: inherit;
+  background-color: white;
+  color : black;
+  min-height : 40px;
+  min-width: 120px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.basis1 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
+
+.basis1 > span
+{
+  align-items: center;
+  justify-self: center;
+}
+
+.basis2
+{
+  flex-basis: 30%;
+  font-size: 26px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.basis2 > ul >li
+{
+  padding : 5px;
+}
+
+.basis3
+{
+  flex-basis: 30%;
+  font-size: 26px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.basis3 > ul >li
+{
+  padding : 5px;
+}
+
+
+.basis4
+{
+  flex-basis: 30%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts
+{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.address > ul
+{
+  padding : 15px;
+}
+
+.address > ul > li
+{
+  padding : 5px;
+}
+
+.socials > ul
+{
+  display : flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials > ul > li
+{
+  padding : 5px;
+}
+
+
+
+
+
+.svg-container
+{
+  height: 50px;
+  width: 50px;
+}
+
+.footer-copyright
+{
+  flex-basis: 10%;
+  background-color: lightgrey;
+  color: black;
+  min-height: 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+  
+}
+}

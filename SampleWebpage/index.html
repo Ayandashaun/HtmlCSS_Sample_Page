@@ -25,15 +25,18 @@
  
             </div>
                            
-            <span class = "menu_bar" ><img id ="menu_bar" class = "svg-container" src="images/menu-bars-svgrepo-com.svg"></span>
-            <span class ="menu" id = "menu">
+            <span class = "menu_bar" id ="menu_bar" >
+                <img  class = "svg-container" src="images/menu-bars-svgrepo-com.svg">
+            </span>
+            <span class ="menu menu_hidden menu-hide" id = "menu">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#our-work">Our Work</a></li>
                     <li><a href="#about-us">About Us</a></li>
                     <li><a href="#contact">Contact Us</a></li>
 
-                    <span class="amp">X</span>
+                    <span class="amp" id = "menu_close">X </span>
+                    
                 </ul>
             </span>
         </section>
@@ -168,6 +171,11 @@
             </div>
         </section>
     </main>
+
+<script src="jquery/jquery.js"></script>
+<script src="jquery/jquery.js.map"></script>
+<script src="jquery-ui/jquery-ui.js"></script>
+<script src="jquery-ui/jquery-ui.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

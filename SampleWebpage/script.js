@@ -1,18 +1,16 @@
-document.getElementById("basis2").innerHTML += "<br /> <hr />";
-document.getElementById("basis3").innerHTML += "<br /> <hr />";
+$(document).ready(function(){
+    $('#menu_bar').click(function(){
 
-var menu = getElementById("menu_bar");
-var menuelement = getElementById("menu");
+        $('#menu').addClass('menu-visible');   
+    })
 
+    $('#menu_close').click(function(){
 
-    menu.onclick = function (){showMenu()};
+        $('#menu').removeClass('menu-visible');  
+    })
+
+    $('.amp').parent().css("background-color:black");
     
-    function showMenu()
-    {
-        menuelement.classList.remove('menu');
-        menuelement.classList.add('menu-visible');
-        menuelement.classList.add('menu_hidden');
-    }
+    });
 
 
-//menu.addEvenListener('click', showMenu());

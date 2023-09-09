@@ -85,6 +85,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding: 5px;
 }
 
 
@@ -121,7 +122,7 @@
   align-items: center;
 }
 
-.basis3 > ul >li
+.basis3 > ul > li
 {
   padding : 5px;
 }
@@ -137,7 +138,7 @@
   align-items: start;
 }
 
-.basis4 > ul >li
+.basis4 > ul > li
 {
   padding : 5px;
 }
@@ -494,10 +495,11 @@
     flex-basis: 20%;
   }
 
-  .menu
+  .menu-hide
   {
     visibility: hidden;
   }
+
 
   .menu_hidden
   {
@@ -514,7 +516,7 @@
     align-items: flex-start;
   }
 
-  .menu_hidden > ul
+  .menu_visible > ul
 
   {
     display: flex;
@@ -527,26 +529,68 @@
   .menu-visible
   {
     visibility: visible;
+    position : absolute;
+    width: 100%;
+    min-height : 1800px;
+    left: 0;
+    top: 0;
+    z-index: 10;
+
+    background-color : white;
+    color : black;
+    padding : 20px;
+    align-items: flex-start;
+
+
   }
-  .menu > ul > li 
+  .menu > ul > li > a
   {
     padding : 10px;
     color : black;
     font-size: 26px;
+    text-decoration: none;
+    
+    align-self: start;
+    padding : 5px;
   }
 
+  .menu > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    padding : 5px;
+  }
+  .menu > ul > li 
+  {
+    padding: 15px;
+
+
+  }
+  .menu > ul > li > a:hover
+  {
+    background-color : black;
+    color : white;
+    cursor: pointer;
+  }
+
+  
   .amp{
     position: absolute;
     top : 8px;
-    right: 50%;
+    left: 0%;
     color : red;
     font-size : 30px;
+    padding: 5px;
+    cursor: pointer;
   }
+
 
   .navigation
   {
     visibility: hidden;
   }
+
   
 }
 
@@ -955,7 +999,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 3px;
+  padding: 5px;
 }
 
 .basis1 > span
